@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E22F2520BCE14081496B5DD /* Pods_GPSLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C7BBA58259156AF75867D8 /* Pods_GPSLog.framework */; };
 		F960B64B1EB9964300B904A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960B64A1EB9964300B904A1 /* AppDelegate.swift */; };
 		F960B64D1EB9964300B904A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960B64C1EB9964300B904A1 /* ViewController.swift */; };
 		F960B6501EB9964300B904A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F960B64E1EB9964300B904A1 /* Main.storyboard */; };
 		F960B6521EB9964300B904A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F960B6511EB9964300B904A1 /* Assets.xcassets */; };
 		F960B6551EB9964300B904A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F960B6531EB9964300B904A1 /* LaunchScreen.storyboard */; };
 		F960B6601EB9964300B904A1 /* GPSLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960B65F1EB9964300B904A1 /* GPSLogTests.swift */; };
+		F960B66B1EB9991700B904A1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F960B66A1EB9991700B904A1 /* MapKit.framework */; };
+		F960B66F1EB99CF800B904A1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F960B66E1EB99CF800B904A1 /* Location.swift */; };
+		F960B6731EB9CAE900B904A1 /* Pods_GPSLogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F960B6701EB9CAE900B904A1 /* Pods_GPSLogTests.framework */; };
+		F960B6741EB9CAE900B904A1 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F960B6711EB9CAE900B904A1 /* Realm.framework */; };
+		F960B6751EB9CAE900B904A1 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F960B6721EB9CAE900B904A1 /* RealmSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93C7BBA58259156AF75867D8 /* Pods_GPSLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPSLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E83213E77B111DDBB8E14D /* Pods-GPSLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSLog.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPSLog/Pods-GPSLog.release.xcconfig"; sourceTree = "<group>"; };
+		A1C3C51571CEF214FAA53813 /* Pods_GPSLogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPSLogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E4E553CE61A6D66366EACB /* Pods-GPSLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSLog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPSLog/Pods-GPSLog.debug.xcconfig"; sourceTree = "<group>"; };
 		F960B6471EB9964300B904A1 /* GPSLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F960B64A1EB9964300B904A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F960B64C1EB9964300B904A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +46,11 @@
 		F960B65B1EB9964300B904A1 /* GPSLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F960B65F1EB9964300B904A1 /* GPSLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSLogTests.swift; sourceTree = "<group>"; };
 		F960B6611EB9964300B904A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F960B66A1EB9991700B904A1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F960B66E1EB99CF800B904A1 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Location.swift; path = ../Location.swift; sourceTree = "<group>"; };
+		F960B6701EB9CAE900B904A1 /* Pods_GPSLogTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_GPSLogTests.framework; path = "Pods/../build/Debug-iphoneos/Pods_GPSLogTests.framework"; sourceTree = "<group>"; };
+		F960B6711EB9CAE900B904A1 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "Pods/../build/Debug-iphoneos/Realm/Realm.framework"; sourceTree = "<group>"; };
+		F960B6721EB9CAE900B904A1 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "Pods/../build/Debug-iphoneos/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F960B6731EB9CAE900B904A1 /* Pods_GPSLogTests.framework in Frameworks */,
+				F960B6741EB9CAE900B904A1 /* Realm.framework in Frameworks */,
+				F960B6751EB9CAE900B904A1 /* RealmSwift.framework in Frameworks */,
+				F960B66B1EB9991700B904A1 /* MapKit.framework in Frameworks */,
+				9E22F2520BCE14081496B5DD /* Pods_GPSLog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +76,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C798E7CFDE0986D574E8EEE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4E553CE61A6D66366EACB /* Pods-GPSLog.debug.xcconfig */,
+				98E83213E77B111DDBB8E14D /* Pods-GPSLog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E82AD5721E885721588F35B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F960B6701EB9CAE900B904A1 /* Pods_GPSLogTests.framework */,
+				F960B6711EB9CAE900B904A1 /* Realm.framework */,
+				F960B6721EB9CAE900B904A1 /* RealmSwift.framework */,
+				F960B66A1EB9991700B904A1 /* MapKit.framework */,
+				93C7BBA58259156AF75867D8 /* Pods_GPSLog.framework */,
+				A1C3C51571CEF214FAA53813 /* Pods_GPSLogTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F960B63E1EB9964300B904A1 = {
 			isa = PBXGroup;
 			children = (
 				F960B6491EB9964300B904A1 /* GPSLog */,
 				F960B65E1EB9964300B904A1 /* GPSLogTests */,
 				F960B6481EB9964300B904A1 /* Products */,
+				C798E7CFDE0986D574E8EEE7 /* Pods */,
+				E82AD5721E885721588F35B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				F960B64A1EB9964300B904A1 /* AppDelegate.swift */,
+				F960B66E1EB99CF800B904A1 /* Location.swift */,
 				F960B64C1EB9964300B904A1 /* ViewController.swift */,
 				F960B64E1EB9964300B904A1 /* Main.storyboard */,
 				F960B6511EB9964300B904A1 /* Assets.xcassets */,
@@ -103,9 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F960B6641EB9964300B904A1 /* Build configuration list for PBXNativeTarget "GPSLog" */;
 			buildPhases = (
+				13E22895A1BE8F51B755A6F8 /* [CP] Check Pods Manifest.lock */,
 				F960B6431EB9964300B904A1 /* Sources */,
 				F960B6441EB9964300B904A1 /* Frameworks */,
 				F960B6451EB9964300B904A1 /* Resources */,
+				B3CB9DB9C133A111B09C8E4D /* [CP] Embed Pods Frameworks */,
+				A0382BAC916C6DA2EB0FCF19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,12 +244,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13E22895A1BE8F51B755A6F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0382BAC916C6DA2EB0FCF19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPSLog/Pods-GPSLog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3CB9DB9C133A111B09C8E4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPSLog/Pods-GPSLog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F960B6431EB9964300B904A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F960B64D1EB9964300B904A1 /* ViewController.swift in Sources */,
+				F960B66F1EB99CF800B904A1 /* Location.swift in Sources */,
 				F960B64B1EB9964300B904A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,9 +438,16 @@
 		};
 		F960B6651EB9964300B904A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E4E553CE61A6D66366EACB /* Pods-GPSLog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3QF397M6R4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Realm",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RealmSwift",
+				);
 				INFOPLIST_FILE = GPSLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gutty.GPSLog;
@@ -354,9 +458,16 @@
 		};
 		F960B6661EB9964300B904A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E83213E77B111DDBB8E14D /* Pods-GPSLog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3QF397M6R4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Realm",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RealmSwift",
+				);
 				INFOPLIST_FILE = GPSLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gutty.GPSLog;
@@ -414,6 +525,7 @@
 				F960B6661EB9964300B904A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F960B6671EB9964300B904A1 /* Build configuration list for PBXNativeTarget "GPSLogTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +534,7 @@
 				F960B6691EB9964300B904A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
